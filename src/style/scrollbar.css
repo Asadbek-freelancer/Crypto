@@ -1,0 +1,19 @@
+/* Стилизация скроллбара */
+.scrollbar-thin::-webkit-scrollbar {
+    width: 8px; /* Ширина скроллбара */
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.755); /* Цвет трека скроллбара */
+    
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgb(128, 128, 128); /* Цвет ползунка */
+    border-radius: 10px; /* Округление углов ползунка */
+    transition: background-color 0.3s ease; /* Анимация при наведении */
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: #3e8e41; /* Цвет ползунка при наведении */
+  }

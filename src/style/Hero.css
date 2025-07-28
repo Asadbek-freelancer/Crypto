@@ -1,0 +1,51 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Высота на весь экран */
+    position: absolute;
+    /* background: linear-gradient(135deg, #0f172a, #1e293b); */
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  /* Контент */
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Заголовок */
+  .hero-title {
+    font-size: 4rem; /* 64px */
+    font-weight: bold;
+    max-width: 900px;
+    padding: 1rem;
+    line-height: 1.2;
+    
+  }
+  
+  /* Адаптивность для планшетов и мобильных устройств */
+  @media (max-width: 1024px) {
+    .hero-title {
+      font-size: 3rem; /* 48px */
+      padding: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2.5rem; /* 40px */
+      padding: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-title {
+      font-size: 2rem; /* 32px */
+    }
+  }

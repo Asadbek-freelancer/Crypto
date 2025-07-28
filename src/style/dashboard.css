@@ -1,0 +1,6 @@
+@media (width < 768px) {
+    .dashboard{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+}

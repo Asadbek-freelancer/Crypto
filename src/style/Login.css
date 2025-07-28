@@ -1,0 +1,13 @@
+@media (max-width: 910px) {
+    .imglog{
+        display: none;
+    }
+    .motion{
+        display: none;
+    }
+    .sign{
+      display: flex;
+      position: relative;
+      left: 25%;
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": "cfeb",
+      "email": "jackricher@gmail.com",
+      "password": "$2b$10$TL.LaeEzPl3wrBc9aoy3iOmoC1xShfbYIwtcMjCLbB6FUshefB8ru",
+      "btcAddress": "w3e4"
+    }
+  ],
+  "balances": {
+    "BTC": 0.5,
+    "ETH": 2,
+    "USDT": 1000
+  },
+  "transactions": [
+    {
+      "id": "ab59",
+      "currency": "BTC",
+      "amount": "1",
+      "address": "e3e4rt6t",
+      "method": "direct",
+      "fee": 0.003,
+      "received": 0.997
+    },
+    {
+      "id": "2845",
+      "currency": "BTC",
+      "amount": "1",
+      "address": "vehd@gmail.com",
+      "method": "direct",
+      "fee": 0.003,
+      "received": 0.997
+    }
+  ],
+  "comments": [
+   
+  ]
+}
