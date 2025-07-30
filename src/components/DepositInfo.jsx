@@ -5,9 +5,9 @@ import React from "react";
 import Sidebar from "./Sidebar";
 import '../style/Deposits.css'
 
-import BtcLogo from '../../images/bitcoinbtclogo.png'
-import EthLogo from '../../images/ethereumethlogo.png'
-import LtcLogo from '../../images/litecoinltclogo.png'
+import BtcLogo from '/images/bitcoinbtclogo.png'
+import EthLogo from '/images/ethereumethlogo.png'
+import LtcLogo from '/images/litecoinltclogo.png'
 
 const currencies = [
   { id: "bitcoin", name: "BTC", address: "bc1qexampleaddress", image: BtcLogo },

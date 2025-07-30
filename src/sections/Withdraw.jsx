@@ -7,11 +7,11 @@ import useCryptoStore from "../store/useCryptoStore";
 import Sidebar from "../components/Sidebar";
 import { useTranslation } from "react-i18next";
 
-import BtcLogo from '../../images/bitcoinbtclogo.png'
-import EthLogo from '../../images/ethereumethlogo.png'
-import LtcLogo from '../../images/litecoinltclogo.png'
-import USDTLogo from '../../images/tetherusdtlogo.png'
-import BNCLogo from '../../images/binancecoinlogopngtransparent.png'
+import BtcLogo from '/images/bitcoinbtclogo.png'
+import EthLogo from '/images/ethereumethlogo.png'
+import LtcLogo from '/images/litecoinltclogo.png'
+import USDTLogo from '/images/tetherusdtlogo.png'
+import BNCLogo from '/images/binancecoinlogopngtransparent.png'
 
 // Иконки для валют
 const currencyIcons = {
@@ -24,7 +24,7 @@ const currencyIcons = {
 
 const Withdraw = () => {
   const {
-    balance,
+    
     currency,
     availableCurrencies,
     withdrawalAmount,
